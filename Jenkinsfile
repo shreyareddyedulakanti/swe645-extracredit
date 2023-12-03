@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools {
-  	maven 'Maven 3.9.5'
+	maven 'Maven-3-9-5'
   }
   environment {
     dockerhubRegistry = "shreyare97/surveyformpage"
